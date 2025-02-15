@@ -1,0 +1,16 @@
+Problem:
+-> n activities are given with their starting time and ending time.
+-> A person can work only on a single activity at a time.
+-> Select the maximum number of activities that can be performed by that person.
+
+Solution:
+-> Sort the activities in ascending order according to the ending times.
+-> As there is no multitasking, the activities that we will take into account
+   can't overlap. This means the current activity's end time has to be equal to or
+   less than the next one's starting time.
+
+Complexity:
+-> Time: O(nlogn)
+-> Space: O(n)
+
+**Disjoint set, Maximum meetings in a room -> these 2 problems also use the same logic**

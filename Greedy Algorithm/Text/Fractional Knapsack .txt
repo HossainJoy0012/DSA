@@ -1,0 +1,15 @@
+Problem:
+-> n items are given that are divisible or a fractional part can be taken.
+-> Each item's weight and profit/value are given.
+-> w, a sack or capacity or weight is given
+-> What is the most profit that can be made by filling w with the items from n items?
+
+Solution:
+-> Calculate the ratio of profit per weight of the items.
+-> Sort the items in descending order according to the ratios.
+-> Take the items until whole or 1 of an item can be taken.
+   Then take fraction of the next available item.
+
+Complexity:
+-> Time: O(nlogn)
+-> Space: O(n)

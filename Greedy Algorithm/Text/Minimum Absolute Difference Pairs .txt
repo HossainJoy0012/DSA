@@ -1,0 +1,13 @@
+Problem:
+-> Given 2 arrays A and B of equal length n.
+-> Pair each element of array A to an element in array B,
+   such as the sum S of absolute differences of all the pairs is minimum.
+
+Solution:
+-> Sort both arrays A and B.
+-> Pair the elements of both arrays index-wise.
+   Calculate the absolute difference of each pair and calculate their sum.
+
+Complexity:
+-> Time: O(nlogn)
+-> Space: O(n)

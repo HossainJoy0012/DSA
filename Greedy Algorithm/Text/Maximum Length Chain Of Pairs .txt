@@ -1,0 +1,14 @@
+Problem:
+-> Given n pairs of numbers.
+   In every pair, the first number is always smaller than the second number.
+-> A pair (c,d) can come after pair (a,b) if b<c.
+-> Find the longest chain which can be formed from a given set of pairs.
+
+Solution: (Variation of Activity Selection problem)
+-> Sort the pairs in ascending order according to the second value of the pairs.
+-> There can't be any overlaping. This means the current pair's second value has to 
+   be equal or less than the next pair's first value.
+
+Complexity:
+-> Time: O(nlogn)
+-> Space: O(n)
