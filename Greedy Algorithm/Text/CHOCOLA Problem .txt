@@ -1,0 +1,10 @@
+Problem:
+-> https://www.spoj.com/problems/CHOCOLA/
+
+Solution:
+-> We have to make sure that the larger the value of cutting line faster the value is taken.
+   because if we take the larger value first, then it won't be multiplying more.
+
+Complexity:
+-> Time: O(mlogm + nlogn)
+-> Space: O(m + n)

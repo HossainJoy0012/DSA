@@ -1,1 +1,0 @@
-{"name":"Local: Activity_Selection","url":"e:\\DSA\\Greedy Algorithm\\Code\\Activity_Selection.cpp","tests":[{"id":1739508552808,"input":"6\n0 1 3 5 5 8\n6 2 4 7 9 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA\\Greedy Algorithm\\Code\\Activity_Selection.cpp","group":"local","local":true}

@@ -1,0 +1,5 @@
+Problem:
+-> https://www.hackerrank.com/challenges/board-cutting/problem
+
+Solution:
+-> (same as CHOCOLA problem)

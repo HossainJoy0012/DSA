@@ -1,1 +1,0 @@
-{"name":"Local: Coins","url":"e:\\DSA\\Greedy Algorithm\\Code\\Coins.cpp","tests":[{"id":1739595867610,"input":"10\n1 2 5 10 20 50 100 200 500 1000\n543","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA\\Greedy Algorithm\\Code\\Coins.cpp","group":"local","local":true}
