@@ -2,4 +2,4 @@
 -> But most of the time it does not give us the optimum solution.
    That's why we use it in some particular cases which can be understandable by practice and observation.
    Most of the times greedy is equal to sorting.
-   Sorting according to the thing we need in max in min.
+   Sorting according to the thing we need in max or min.

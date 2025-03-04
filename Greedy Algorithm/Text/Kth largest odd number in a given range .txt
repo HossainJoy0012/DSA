@@ -1,0 +1,17 @@
+Problem:
+-> Given two variables L and R, indicating a range of integers from L to R inclusive,
+   and a number K, the task is to find Kth largest odd number.
+-> If K > number of odd numbers in the range L to R then return 0.
+
+Solution:
+-> Here range is l to r (l & r incclusive).
+   How many odd numbers lie in this range depend on r.
+   If r=even there are (r-l)/2 and if r=odd there are ((r-l)/2)+1
+   odd numbers in the range.
+-> If the Kth largest odd number is available in this range then,
+   if r=even the answer will be r-2*k+1
+   else the answer will be r-2*k+2
+
+   Complexity:
+-> Time: O(1)
+-> Space: O(1)

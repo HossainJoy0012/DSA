@@ -7,4 +7,10 @@ Problem:
 
 Solution:
 -> Sort the array in descending order according to the profits.
--> 
+-> Check if the spent time is lower than the deadline of that job.
+   If it is take that job in account and increase the spent time by one
+   else skip the job.
+
+Complexity:
+-> Time: O(nlogn)
+-> Space: O(n)

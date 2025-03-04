@@ -1,0 +1,22 @@
+Problem:
+-> Given two integers N and K.
+-> The task is to print the lexicographically smallest string of length N
+   consisting of lower-case English alphabets
+   such that the sum of the characters of the string equals K
+   where ‘a’ = 1, ‘b’ = 2, ‘c’ = 3, ...  and ‘z’ = 26.
+
+Solution:
+-> Initialize string of size N and fill all the element with ‘a’
+-> Start traversing from the end of the array
+   and replace the elements of the array by ‘z’ if K=26
+   or replace it by the character having ASCII value (K + 97 – 1).
+-> At the same time decrease the value of K by replacing element value 
+   i.e. for a = 1, b = 2, c = 3, ... z = 26.
+-> Also, note that we are subtracting previous element value i.e. (total ‘a’)
+   before current element and adding the same before the end of for loop.
+-> Check for K < 0 conditions and break the for loop.
+-> Return the new string formed by the elements of the char array as the answer.
+
+Complexity:
+-> Time: O(n)
+-> Space: O(n)

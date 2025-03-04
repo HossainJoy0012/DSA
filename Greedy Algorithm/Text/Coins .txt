@@ -6,6 +6,10 @@ Solution:
 -> Sort the array of denominations (usually sorted).
 -> Take how much of which denominations need in descending order.
 
+Complexity:
+-> Time: O(n) / {O(nlogn) if sorting in needed}
+-> Space: O(n)
+
 ***
 A Canonical Coin System is a type of coin system
 where the greedy algorithm always produces the optimal solution for the coin change problem.

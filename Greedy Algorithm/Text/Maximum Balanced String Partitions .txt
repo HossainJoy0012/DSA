@@ -1,0 +1,12 @@
+Problem:
+-> https://www.geeksforgeeks.org/maximum-balanced-string-partitions/
+
+Solution:
+-> If number of 'L' & 'R' is equal, partitions can be done.
+   And the string can't be changed or sorted.
+   So we need to iterate through the string
+   and in the indices these two become equal a partition can be done.
+
+Complexity:
+-> Time: O(n)
+-> Space: O(1)
