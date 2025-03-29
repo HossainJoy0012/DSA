@@ -1,0 +1,17 @@
+Problem:
+-> Given an array arr[] and a number k
+-> Split the given array into k subarrays
+   such that the maximum subarray sum achievable out of k subarrays formed is the minimum possible.
+-> The task is to find that possible subarray sum.
+
+Solution:
+-> The minimum largest sum = largest value of the array.
+-> The maximum largest sum = sum of all values of the array.
+-> By applying binary search considering every mid as the highest sum of a subarray
+   the number of possible subarrays will be counted and compared with K.
+-> if(current parts>k) l=mid-1.
+   else ans=min(ans,maximum achievable sum of current subarrays), r=mid-1.
+
+Complexity:
+-> Time: O((n-1)C(k-1))
+-> Space: O(k)

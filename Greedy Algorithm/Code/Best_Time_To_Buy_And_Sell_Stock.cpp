@@ -10,8 +10,8 @@ int main()
 {
     slow;
 
-    ll n; cin>>n;
-    vector<ll> prices(n); for(ll i=0;i<n;i++) cin>>prices[i];
+    ll n;cin>>n;
+    vector<ll> prices(n);for(ll i=0;i<n;i++) cin>>prices[i];
 
     ll ans=0, x=0;
     for(int i=1;i<n;i++)
