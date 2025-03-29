@@ -1,0 +1,16 @@
+Problem:
+-> Given an array prices[] of length n, representing the prices of the stocks on different days.
+-> The task is to find the maximum profit possible by buying and selling the stocks on different days.
+-> At most one transaction is allowed. Here one transaction means 1 buy + 1 Sell.
+-> Stock must be bought before being sold.
+
+Solution:
+-> Take two variables which will store the value 0, one indicates a fixed index and another stores answer.
+-> If array[current index]>array[fixed index] raverse from 1 to n-1 indices of the array
+   while comparing array[current index]-array[fixed index] with the value of answer.
+-> Else if array[current index]<array[fixed index] change the value of fixed index with current index.
+
+
+Complexity:
+-> Time: O(n)
+-> Space: O(1)

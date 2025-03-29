@@ -22,12 +22,12 @@ int main()
     for(ll i=0;i<n;i++) cin>>pairs[i].second.first>>pairs[i].second.second; // values of the pairs
 
     // pairs before sort
-    // for(auto val:pairs) cout<<val.first<<" "<<pairs[i].second.first<<" "<<pairs[i].second.second<<nl; cout<<nl;
+    // for(auto val:pairs) cout<<val.first<<" "<<val.second.first<<" "<<val.second.second<<nl; cout<<nl;
 
     sort(pairs.begin(),pairs.end(),compare);
 
     // pairs after sort
-    // for(auto val:pairs) cout<<val.first<<" "<<pairs[i].second.first<<" "<<pairs[i].second.second<<nl; cout<<nl;
+    for(auto val:pairs) cout<<val.first<<" "<<val.second.first<<" "<<val.second.second<<nl; cout<<nl;
 
     vector<pair<ll,pll>> ans; ans.push_back(pairs[0]);
     for(ll i=1;i<n;i++)

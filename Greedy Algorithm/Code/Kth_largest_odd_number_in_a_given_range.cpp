@@ -19,8 +19,8 @@ int main()
         if(range<k) cout<<0;
         else
         {
-            if(r%2==0) cout<<r-2*k+1;
-            else cout<<r-2*k+2;
+            if(r%2==0) cout<<r-2*(k-1);
+            else cout<<r-2*(k-2);
         }
     }
 

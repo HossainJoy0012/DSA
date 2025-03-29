@@ -7,7 +7,7 @@ Solution:
 -> Take how much of which denominations need in descending order.
 
 Complexity:
--> Time: O(n) / {O(nlogn) if sorting in needed}
+-> Time: O(n) / {O(nlogn) if sorting is needed}
 -> Space: O(n)
 
 ***
